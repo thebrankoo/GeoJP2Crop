@@ -1,0 +1,105 @@
+File:  i2.jp2
+JPEG 2000 Signature Box (jP  ) @ (0, 12)
+    Signature:  0d0a870a
+File Type Box (ftyp) @ (12, 20)
+    Brand:  jp2 
+    Compatibility:  ['jp2 ']
+JP2 Header Box (jp2h) @ (32, 45)
+    Image Header Box (ihdr) @ (40, 22)
+        Size:  [10980 10980 3]
+        Bitdepth:  8
+        Signed:  False
+        Compression:  wavelet
+        Colorspace Unknown:  True
+    Colour Specification Box (colr) @ (62, 15)
+        Method:  enumerated colorspace
+        Precedence:  0
+        Colorspace:  sRGB
+Association Box (asoc) @ (77, 1844)
+    Label Box (lbl ) @ (93, 16)
+        Label:  gml.data
+    Association Box (asoc) @ (109, 1812)
+        Label Box (lbl ) @ (117, 25)
+            Label:  gml.root-instance
+        XML Box (xml ) @ (142, 1779)
+            <gml:FeatureCollection xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengeospatial.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/gmlJP2Profile/1.0.0/gmlJP2Profile.xsd">
+            
+              <gml:boundedBy>
+                <gml:Null>withheld</gml:Null>
+              </gml:boundedBy>
+            
+              <gml:featureMember>
+                <gml:FeatureCollection>
+                  <gml:featureMember>
+                    <gml:RectifiedGridCoverage dimension="2" gml:id="RGC0001">
+                      <gml:rectifiedGridDomain>
+                        <gml:RectifiedGrid dimension="2">
+                          <gml:limits>
+                            <gml:GridEnvelope>
+                              <gml:low>1 1</gml:low>
+                              <gml:high>10980 10980</gml:high>
+                            </gml:GridEnvelope>
+                          </gml:limits>
+                          <gml:axisName>x</gml:axisName>
+                          <gml:axisName>y</gml:axisName>
+                          <gml:origin>
+                            <gml:Point gml:id="P0001" srsName="urn:ogc:def:crs:EPSG::32619">
+                              <gml:pos>499985 5699995</gml:pos>
+                            </gml:Point>
+                          </gml:origin>
+                          <gml:offsetVector srsName="urn:ogc:def:crs:EPSG::32619">10 0</gml:offsetVector>
+                          <gml:offsetVector srsName="urn:ogc:def:crs:EPSG::32619">0 -10</gml:offsetVector>
+                        </gml:RectifiedGrid>
+                      </gml:rectifiedGridDomain>
+                      <gml:rangeSet>
+                        <gml:File>
+                          <gml:fileName>gmljp2://codestream/0</gml:fileName>
+                          <gml:fileStructure>Record Interleaved</gml:fileStructure>
+                        </gml:File>
+                      </gml:rangeSet>
+                    </gml:RectifiedGridCoverage>
+                  </gml:featureMember>
+                </gml:FeatureCollection>
+              </gml:featureMember>
+            
+            </gml:FeatureCollection>
+Contiguous Codestream Box (jp2c) @ (1921, 111359556)
+    SOC marker segment @ (1929, 0)
+    SIZ marker segment @ (1931, 47)
+        Profile:  no profile
+        Reference Grid Height, Width:  (10980 x 10980)
+        Vertical, Horizontal Reference Grid Offset:  (0 x 0)
+        Reference Tile Height, Width:  (256 x 256)
+        Vertical, Horizontal Reference Tile Offset:  (0 x 0)
+        Bitdepth:  (8, 8, 8)
+        Signed:  (False, False, False)
+        Vertical, Horizontal Subsampling:  ((1, 1), (1, 1), (1, 1))
+    COD marker segment @ (1980, 17)
+        Coding style:
+            Entropy coder, with partitions
+            SOP marker segments:  False
+            EPH marker segments:  False
+        Coding style parameters:
+            Progression order:  LRCP
+            Number of layers:  1
+            Multiple component transformation usage:  reversible
+            Number of resolutions:  5
+            Code block height, width:  (16 x 16)
+            Wavelet transform:  5-3 reversible
+            Precinct size:  ((128, 128), (128, 128), (128, 128), (128, 128), (128, 128))
+            Code block context:
+                Selective arithmetic coding bypass:  False
+                Reset context probabilities on coding pass boundaries:  False
+                Termination on each coding pass:  False
+                Vertically stripe causal context:  False
+                Predictable termination:  False
+                Segmentation symbols:  False
+    QCD marker segment @ (1999, 16)
+        Quantization style:  no quantization, 1 guard bits
+        Step size:  [(0, 10), (0, 11), (0, 11), (0, 12), (0, 11), (0, 11), (0, 12), (0, 11), (0, 11), (0, 11), (0, 10), (0, 10), (0, 11)]
+    CME marker segment @ (2017, 15)
+        "Kakadu-v7.4"
+    CME marker segment @ (2034, 92)
+        "Kdu-Layer-Info: log_2{Delta-D(squared-error)/Delta-L(bytes)}, L(bytes)
+    -192.0,  1.4e+08
+    "

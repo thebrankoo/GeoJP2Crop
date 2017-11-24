@@ -8,6 +8,8 @@ import sys
 from osgeo import osr
 import json
 
+# jp2dump i2.jp2 > meta.xml
+
 def pixel2coord(x, y):
     xp = a * x + b * y + xoff
     yp = d * x + e * y + yoff
